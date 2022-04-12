@@ -1,3 +1,4 @@
+#include "main.h"
 void print_alphabet(void)
 {
 	char mychar;
@@ -6,5 +7,5 @@ void print_alphabet(void)
 	{
 		_putchar(mychar);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
